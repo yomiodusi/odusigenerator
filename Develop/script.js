@@ -49,9 +49,8 @@ function generatePassword() {
   if (confirm("Do you want to include lowercase characters")) {
     possiblePassword = possiblePassword.concat(lowerCaseOptions);
   }
-  console.log("You Clicked")
 
-  return true;
+  return possiblePassword;
 }
 
 
