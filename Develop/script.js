@@ -55,7 +55,7 @@ function generatePassword() {
     password = password + possiblePassword[randomIndex];
   }
 
-  return true;
+  return password;
 }
 
 
